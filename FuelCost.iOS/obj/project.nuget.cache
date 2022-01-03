@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "dgSpecHash": "UkzGzbnkYWDr8Y8SyHAN9pF5X7LOBkTQSh0xrHJ8778VvTPAlEN2tVB7mEa1JRL5Tc6yL2aBwCCFeqz6BWonmw==",
+  "success": true,
+  "projectFilePath": "/Users/eduardoreis/Documents/FuelCost/FuelCost.iOS/FuelCost.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/eduardoreis/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/xamarin.forms.stepprogressbar/1.0.1/xamarin.forms.stepprogressbar.1.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.7.0 to 1.6.1. Reference the package directly from the project to select a different version. \n FuelCost.iOS -> FuelCost -> Xamarin.Essentials (>= 1.7.0) \n FuelCost.iOS -> Xamarin.Essentials (>= 1.6.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2291 to 5.0.0.2012. Reference the package directly from the project to select a different version. \n FuelCost.iOS -> FuelCost -> Xamarin.Forms (>= 5.0.0.2291) \n FuelCost.iOS -> Xamarin.Forms (>= 5.0.0.2012)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}

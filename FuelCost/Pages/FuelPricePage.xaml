@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:control="clr-namespace:Xamarin.Forms.StepProgressBar;assembly=Xamarin.Forms.StepProgressBar"
+             x:Class="FuelCost.Pages.FuelPricePage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource DarkBlue}">
+    <ContentPage.Content>
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <control:StepProgressBar Grid.Column="0"
+                                     Grid.Row="0"
+                                     Margin="60,80,60,0"
+                                     StepCanTouch="False"
+                                     StepColor="{StaticResource Purple}"
+                                     Steps="3"
+                                     StepSelected="3"
+                                     IsCircle="true"/>
+
+            <StackLayout Grid.Column="0"
+                         Grid.Row="1"
+                         Margin="40,0"
+                         VerticalOptions="CenterAndExpand">
+
+                <Image Source="cash_register_icon.png"
+                       WidthRequest="124"/>
+
+                <Label Text="qual o preço médio do combustível?"
+                       FontFamily="RobotoLight"
+                       TextColor="{StaticResource White}"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,20"
+                       FontSize="32"/>
+
+                <Grid BackgroundColor="Transparent">
+
+                    <Frame BorderColor="White"
+                           CornerRadius="5"
+                           BackgroundColor="Transparent"
+                           HasShadow="False"/>
+
+                    <Label x:Name="fancyEntryLabel"
+                           AnchorY="1"
+                           AnchorX="0"
+                           Margin="10"
+                           Padding="3"
+                           TextColor="White"
+                           FontFamily="RobotoLight"
+                           BackgroundColor="{StaticResource DarkBlue}"
+                           HorizontalOptions="Start"
+                           Text="em reais"/>
+
+                    <Entry x:Name="fancyEntry"
+                           Margin="10,0,0,0"
+                           TextColor="White"
+                           BackgroundColor="Transparent"/>
+
+                </Grid>
+
+            </StackLayout>
+
+            <Button Grid.Column="0"
+                    Grid.Row="2"
+                    Text="resultado"
+                    Margin="120,40"
+                    FontFamily="RobotoLight"
+                    TextColor="{StaticResource White}"
+                    BackgroundColor="{StaticResource Purple}"
+                    Clicked="Button_Clicked"
+                    CornerRadius="22"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

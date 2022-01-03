@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{1543FFCC-839D-4E6C-AD35-AE0E815C5C5B}|Default">
+  <MonoDevelop.Ide.ItemProperties.FuelCost.Android PreferredExecutionTarget="Android.J7AXB6007072L96" />
+  <MonoDevelop.Ide.ItemProperties.FuelCost.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9A16C396-578C-491D-B007-01C48C9B699D" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FuelCost/Pages/ResultPage.xaml.cs">
+    <Files>
+      <File FileName="FuelCost/Pages/CarConsumptionPage.xaml" Line="25" Column="55" />
+      <File FileName="FuelCost/Pages/CarConsumptionPage.xaml.cs" Line="38" Column="10" />
+      <File FileName="FuelCost/Pages/TravelledDistancePage.xaml" Line="52" Column="39" />
+      <File FileName="FuelCost/Pages/TravelledDistancePage.xaml.cs" Line="16" Column="1" />
+      <File FileName="FuelCost/Pages/FuelPricePage.xaml" Line="76" Column="40" />
+      <File FileName="FuelCost/Pages/FuelPricePage.xaml.cs" Line="34" Column="9" />
+      <File FileName="FuelCost/Pages/ResultPage.xaml" Line="37" Column="45" />
+      <File FileName="FuelCost/Pages/ResultPage.xaml.cs" Line="17" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FuelCost" expanded="True">
+            <Node name="FuelCost" expanded="True">
+              <Node name="Fonts" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="CarConsumptionPage.xaml" expanded="True" />
+                <Node name="FuelPricePage.xaml" expanded="True" />
+                <Node name="ResultPage.xaml" expanded="True">
+                  <Node name="ResultPage.xaml.cs" selected="True" />
+                </Node>
+                <Node name="TravelledDistancePage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="FuelCost.Android" expanded="True">
+              <Node name="CustomRenderer" expanded="True" />
+            </Node>
+            <Node name="FuelCost.iOS" expanded="True">
+              <Node name="CustomRenderer" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

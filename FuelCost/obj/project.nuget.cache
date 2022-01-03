@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "GAhbVsb2SHs1BG5iOWOVb2WHtjgJUrtNroXHhFPTk2Q3mVsTCixFhcHj1zuUrp8szi8R/iyxlqWUd5/VZcwWpw==",
+  "success": true,
+  "projectFilePath": "/Users/eduardoreis/Documents/FuelCost/FuelCost/FuelCost.csproj",
+  "expectedPackageFiles": [
+    "/Users/eduardoreis/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/xamarin.forms/5.0.0.2291/xamarin.forms.5.0.0.2291.nupkg.sha512",
+    "/Users/eduardoreis/.nuget/packages/xamarin.forms.stepprogressbar/1.0.1/xamarin.forms.stepprogressbar.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
